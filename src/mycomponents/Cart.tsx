@@ -45,7 +45,7 @@ export default function Cart(){
             setIsopin(isopin === index ? null : index);
         }
     return(
-        <div className=" h-fit w-full bg-stone-50 felx justify-center items-center">
+        <div className=" h-fit w-full bg-stone-100 felx justify-center items-center">
             <div className="h-[90%] bg-stone-100 w-full grid grid-cols-3 grid-rows-2 justify-center items-center gap-8">
                  {images.map((cart ,index)=>(
                             <div key={index} className="w-full  rounded-2xl bg-gray-300 h-full">
