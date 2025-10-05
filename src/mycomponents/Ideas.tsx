@@ -17,7 +17,7 @@ const settings: Settings = {
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                  slidesToScroll: 1,
                  infinite: true,
                  dots: false,
@@ -71,18 +71,18 @@ export default function Hero(){
     ]
     return(
         
-        <div className=" bg-stone-50 w-full h-fit">
+        <div className=" bg-stone-50 w-full h-fit overflow-hidden">
                 <h1 className="text-2xl text-center lg:text-4xl font-bold text-amber-700">TESTMONIAL</h1>
                 <Slider {...settings} >
                     {images.map((engineer ,index)=>(
-                         <div key={index} className="w-1/4 rounded-2xl mt-4 bg-gray-300 lg:h-[90%] justify-between mx-2  h-80 flex ">
+                         <div key={index} className="w-[20%] rounded-2xl mt-4 bg-gray-300 lg:h-full justify-between mx-2  h-80 flex ">
                             <div className="p-4">
                                 <Code2 />
                             </div>
                             <div className="w-full h-full flex flex-col items-center">
                     <img  className="w-32 h-32 rounded-full" src={engineer.imgurl} alt="" />
-                    <h1 className="text-2xl font-medium text-amber-700 pt-6">{engineer.name}</h1>
-                    <h1 className="text-center pt-1.5 pb-10">{engineer.idea}</h1>
+                    <h1 className="text-2xl font-medium text-amber-700 pt-8">{engineer.name}</h1>
+                    <h1 className="text-center pt-1.5 pb-20">{engineer.idea}</h1>
                     </div>
                 </div>
                     ))}                   

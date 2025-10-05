@@ -1,5 +1,9 @@
+import Clock from "@/mycomponents/Clock";
+
 export default function Weather (){
     return(
-        <div>weather page</div>
+        <div>
+            <Clock />
+        </div>
     )
 }

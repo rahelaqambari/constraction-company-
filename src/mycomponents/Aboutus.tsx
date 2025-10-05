@@ -5,9 +5,9 @@ import { Building, Building2, Check, LucideDrill, Pickaxe } from "lucide-react";
 export default function Aboutus(){
     return(
         <div className=" h-screen flex w-full mt-5 items-center justify-center  ">
-            <div className="w-full h-full flex items-center justify-between">
-                <div className="w-1/4 h-fit relative bottom-36 " >
-                    <img className="h-64 w-96 z-40 absolute rounded-md " src="/images/images (4).jfif" alt="" />
+            <div className="w-[80%] h-full flex items-center justify-between">
+                <div className="w-[30%] h-fit relative bottom-36 " >
+                    <img className="h-72 w-96 z-40 absolute rounded-md " src="/images/images (4).jfif" alt="" />
                     <motion.div className=" absolute top-28 left-32 h-72 w-72 p-4 "
                     initial={{rotate:0}}
                     animate={{rotate:360}}
@@ -31,7 +31,7 @@ export default function Aboutus(){
                        
                     </motion.div>
                 </div>
-                <div className=" w-1/2 lg:flex flex-col items-center ">
+                <div className=" w-[50%] lg:flex flex-col items-center ">
                     <div className="h-60 w-[80%] flex flex-col items-center ">
                         <h1 className="text-4xl text-amber-700 pb-4 font-bold underline">About Us</h1>
                         <h1 className="text-3xl text-neutral-700 font-medium">Your Dream Our Mission,Try With Us The  best! </h1>                         

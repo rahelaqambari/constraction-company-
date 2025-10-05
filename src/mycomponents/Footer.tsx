@@ -3,8 +3,8 @@ import { Facebook, Instagram, LinkedinIcon, TwitterIcon, Youtube } from "lucide-
 
 export default function Footer(){
     return (
-       <div className="h-fit min-w-full pb-20">
-        <div className="h-[70%] bg-amber-700 p-20 flex lg:flex-row flex-col justify-center items-center">
+       <div className="h-fit w-full pb-20 flex justify-center items-center">
+        <div className="h-[70%] w-[90%] bg-amber-700 p-20 flex lg:flex-row flex-col justify-center items-center">
         <div className="w-[30%] h-full lg:border-r   border-white  flex flex-col gap-2 text-white items-center justify-center">
              <h1 className="text-2xl font-medium text-">Home</h1>
              <h1 className="text-2xl font-medium text-">Services</h1>
@@ -22,7 +22,7 @@ export default function Footer(){
           <LinkedinIcon />
             </div>  
            <h1 className=" lg:text-4xl  text-center text-2xl py-10 font-medium text-">Sharifi Constraction Company</h1>
-           <Button className="text-amber-700 hover:bg-white/20 bg-white ">Follow Now</Button>
+           <Button className="text-amber-700 hover:bg-amber-700 hover:text-white hover:border bg-white ">Follow Now</Button>
         </div>
          <div className="lg:w-[30%] w-full h-full  flex flex-col gap-2 text-white items-center justify-center">
             <h1 className="text-3xl font-light">Our Useful Linkes</h1>

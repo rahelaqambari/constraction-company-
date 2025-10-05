@@ -70,8 +70,8 @@ export default function Hero(){
     ]
     return(
         <div className=" bg-stone-50 w-full flex bg-cover object-cover bg-no-repeat">
-            <div className="flex-1 min-w-0 flex flex-col lg:w-1/2 w-fit justify-center items-center ">
-                <h1 className="moto lg:text-5xl text-3xl font-bold text-center pb-4">Your Dream Our Mission, Bring Theme to Reality</h1>
+            <div className="flex-1 min-w-0 flex flex-col lg:w-[20%] w-fit justify-center items-center ">
+                <h1 className="moto lg:text-5xl text-3xl font-bold text-center p-6">Your Dream Our Mission, Bring Theme to Reality</h1>
                 <p className="text-base text-center lg:my-3">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quis 
                 perferendis qui minus omnis asperiores laudantium vitae?
@@ -83,7 +83,7 @@ export default function Hero(){
                 <Button variant={"outline"} className="hover:bg-amber-700 bg-amber-600 hover:text-white">Explore More</Button>
             </div>
             </div>
-            <div className="flex-1 min-w-0 flex justify-center w-1/2 h-full  items-center flex-col ">
+            <div className="flex-1  flex justify-center w-[30%] h-full  items-center flex-col ">
                 <h1 className="text-2xl lg:text-3xl font-bold lg:mb-3">Our Expert Team</h1>
                 <Slider {...settings} className ="w-full">
                     {images.map((engineer ,index)=>(
