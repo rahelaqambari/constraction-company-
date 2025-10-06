@@ -38,12 +38,12 @@ export default function Aboutus(){
                              <p className="text-neutral-700 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iste excepturi commodi vitae nemo delectus, possimus, sed deleniti et numquam repudiandae itaque, tempore ullam rerum maiores adipisci vel debitis eligendi!</p>
                                                 
                         </div>
-                       <div className="h-full w-[80%] flex flex-col lg:space-y-6">
-                         <div className="h-full w-full lg:space-x-1.5 flex">
+                       <div className="h-full w-[80%] flex flex-col lg:space-y-6 -space-y-14">
+                         <div className="h-full w-full space-x-1.5 flex">
                         <Check className="text-amber-700" />
                             <h1 className="text-neutral-700 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                             </div> 
-                             <div className="h-full w-full lg:space-x-1.5 flex">
+                             <div className="h-full w-full space-x-1.5 flex">
                         <Check className="text-amber-700" />
                             <h1 className="text-neutral-700 font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                             </div> 
