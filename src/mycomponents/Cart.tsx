@@ -108,6 +108,7 @@ export default function Cart(){
                     <p className=' w-[90%] font-medium'>{cart.h1}</p>
                     <Button  className="bg-amber-700 mt-auto mr-2 ml-auto hover:bg-amber-800  hover:cursor-pointer font-light transition-all duration-500 text-white">
                      Read more...</Button>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem obcaecati dolorem totam consequuntur dignissimos repellat explicabo ducimus. Saepe voluptas eum eos quo, vero quas nobis explicabo voluptate corrupti sunt.lor Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eos reiciendis veniam harum maiores voluptate corporis provident maxime! Non voluptas corrupti pariatur? Excepturi reiciendis provident inventore, delectus voluptatem tenetur eos?</p>
                       </div>
                     </div>    
                     )):
