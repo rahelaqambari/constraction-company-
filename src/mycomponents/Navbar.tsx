@@ -35,7 +35,7 @@ export default function Navbar(){
             <div>
                 <img className="h-20 w-28" src="/images/download.png" alt="" />
             </div>
-            <div className="lg:flex hidden bg-stone-100 p-2 lg:text-base text-4xl rounded-md backdrop:blur-in-sm space-x-6">
+            <div className="lg:flex hidden font-medium bg-stone-100 p-2 lg:text-base text-4xl rounded-md backdrop:blur-in-sm space-x-6">
                 {navlist.map((item, idx)=>(
                      <a
                      key={idx}
