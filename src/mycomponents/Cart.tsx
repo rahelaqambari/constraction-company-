@@ -93,7 +93,7 @@ export default function Cart(){
         [text,Allservices]);
 
     return(
-        <div className=" h-fit min-h-screen w-full bg-stone-100 felx justify-center items-center">
+        <div className=" h-fit min-h-screen w-full bg-stone-100 felx justify-center items-center mb-12">
              <div className="h-64 bg-stone-100 w-full flex items-center justify-center">
               <Search className="text-amber-700 absolute left-[26%] " size={26} />
                 <input value={text} onChange={(e)=>settext(e.target.value)} className="h-16 w-[50%] focus:outline-0 border rounded-full px-14 border-amber-700 relative" type="text" placeholder="Search here" />
