@@ -1,30 +1,35 @@
-import {Routes,BrowserRouter,Route} from "react-router-dom";
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import Weather from "./pages/Weather";
-import About from "./pages/About";
-import Notfound from "./pages/Notfound";
-import Navbar from "./mycomponents/Navbar";
-function App(){
-  return(
-    <div className="bg-stone-50 relative">
-      <Navbar />
-      <div className=" mx-auto w-full">
-        <BrowserRouter>
-        <Routes>
-          <Route path="/Home" element={<Home/>} />
-          <Route path="/Service" element={<Services/>} />
-          <Route path="/Blog" element={<Blog/>} />
-          <Route path="/Contact" element={<Contact/>} />
-          <Route path="/Weather" element={<Weather/>} />
-          <Route path="/About" element={<About/>} />
-          <Route path="/*" element={<Notfound/>} />
-        </Routes>
-        </BrowserRouter>
-      </div>
+
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Home from "./Pages/Home"
+import AboutUs from "./Pages/AboutUs"
+import ContactUs from "./Pages/ContactUs"
+import Protfolio from "./Pages/Protfolio"
+import Team from "./Pages/Team"
+import Priceng from "./Pages/Priceng"
+import Faq from "./Pages/Faq"
+import NotFoud from "./Pages/NotFoud"
+import News from "./Pages/News"
+import SengelNews from "./Pages/SengelNews"
+
+function App() {
+  return (
+    <div className="App font-enter">
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/About" element={<AboutUs/>}/>
+        <Route path="/Protfolio" element={<Protfolio/>}/>
+        <Route path="/Team" element={<Team/>}/>
+        <Route path="/Priceng" element={<Priceng/>}/>
+        <Route path="/Faq" element={<Faq/>}/>
+        <Route path="/NotFound" element={<NotFoud/>}/>
+        <Route path="/News" element={<News/>}/>
+        <Route path="/SengelNews" element={<SengelNews/>}/>
+        <Route path="/Contact" element={<ContactUs/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   )
 }
-export default App;
+
+export default App
