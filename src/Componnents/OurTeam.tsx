@@ -35,7 +35,7 @@ function OurTeam() {
         },
     ]
   return (
-    <div className='w-full h-fit py-24 grid grid-cols-3 gap-16 items-center justify-center'>
+    <div className='w-full h-fit py-24 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 items-center justify-center'>
         {Team.map((team,index)=>(
         <div key={index} className='h-[80vh] w-[400px] relative group'>
             <img src={team.Img} className='h-full w-full  transition-all duration-700 ease-linear' alt="" />

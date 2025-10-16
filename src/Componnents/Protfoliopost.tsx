@@ -44,7 +44,7 @@ function Protfoliopost() {
         },
     ]
   return (
-    <div className='h-fit py-12 px-4 grid grid-cols-4 gap-6 justify-center items-center '>
+    <div className='h-fit py-12 px-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 justify-center items-center '>
         {ProtfolioCol.map((pro , index)=>(
          <div key={index} className='flex flex-col items-center justify-center gap-4 shadow-md shadow-gray-400'>
             <div className='w-full h-[280px] overflow-hidden'>
